@@ -45,7 +45,7 @@ Handle course payments.
 ## Getting Started
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your/repo.git`
+1. Clone the repository: `git clone https://github.com/Bonfacegitonga/tutor-api`
 2. Create a virtual environment: `python -m venv venv`
 3. Activate the virtual environment:
     - On Windows: `venv\Scripts\activate`
