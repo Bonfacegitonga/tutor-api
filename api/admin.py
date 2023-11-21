@@ -12,5 +12,6 @@ class CourseAdmin(admin.ModelAdmin):
     list_filter = ['created']
     search_fields = ['title', 'overview']
     inlines = [ModuleInline]
+    
 
 admin.site.register(Tutor)

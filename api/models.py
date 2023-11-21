@@ -5,14 +5,24 @@ from django.contrib.contenttypes.fields import GenericForeignKey
 
 # Create your models here.
   
-
-class Tutor(models.Model):
-    user = models.OneToOneField(User,  on_delete=models.CASCADE)
-    overview = models.CharField(max_length=100)
-    about = models.TextField()
+class Student(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='student_profile')
+    bio = models.TextField()
+    enrollment_date = models.DateField()
 
     def __str__(self):
         return f'Profile of {self.user.username}'
+    
+class Tutor(models.Model):
+    user = models.OneToOneField(User,  on_delete=models.CASCADE, related_name='tutor_profile')
+    overview = models.CharField(max_length=100)
+    about = models.TextField()
+    email = models.EmailField()
+    tutor_first_name=models.CharField(max_length=100)
+    tutor_last_name=models.CharField(max_length=100)
+
+    def __str__(self):
+        return f'Profile of {self.user.first_name}'
 
 
 
