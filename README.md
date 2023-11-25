@@ -24,7 +24,7 @@ Manage courses as a teacher or enroll in courses as a student.
 - `POST /api/courses`: Create a new course (for teachers).
 - `PUT /api/courses/{courseId}`: Update course details (for teachers).
 - `DELETE /api/courses/{courseId}`: Delete a course (for teachers).
-- `POST /api/courses/{courseId}/enroll`: Enroll a student in a course.
+
 - `GET /api/courses/{courseId}/lectures`: Get a list of lectures in a course.
 - `POST /api/courses/{courseId}/lectures`: Add a new lecture to a course (for teachers).
 
