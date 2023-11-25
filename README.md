@@ -1,6 +1,6 @@
-# Django Rest Framework Project - Online Learning Platform📚🎓(project under development 35% done)
+# Django  Project(Api) - Online Learning Platform📚🎓(
 
-Welcome to the README for our Django Rest Framework project - an Online Learning Platform! This platform offers a wide range of features for both teachers and students, including user management, course management, live tutoring sessions, and payment handling.
+Welcome to the README for our Django  project - an Online Learning Platform! This platform offers a wide range of features for both teachers and students, including user management, course management, live tutoring sessions, and payment handling.
 
 ## Table of Contents
 1. [Authentication and User Management](#1-authentication-and-user-management)
@@ -58,5 +58,3 @@ To get started with this project, follow these steps:
 ## Contributing
 I welcome contributions to improve and expand this project. Feel free to open issues or submit pull requests.
 
-
-*Note: Replace `{courseId}` and `{sessionId}` with actual IDs when making requests.* 
